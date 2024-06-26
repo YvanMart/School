@@ -3,6 +3,9 @@
     'author': 'Yvan Mamani Huacarpuma',
     'website': 'https://www.linkedin.com/in/yvan-mamani-huacarpuma-824234217/',
     'summary': 'Odoo 16',
+    'depends': [
+        'base',
+    ],
     'data': [
         'security/ir.model.access.csv',
         'views/menu.xml',
